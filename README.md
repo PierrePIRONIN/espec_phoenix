@@ -190,7 +190,7 @@ end
 #### Note! Deprecated Phoenix.ConnTest.conn/0 function is not imported.
 Below is an example of controller specs:
 ```elixir
-defmodule Rumbl.VideoControllerTest do
+defmodule Rumbl.VideoControllerSpec do
   use ESpec.Phoenix, controller: VideoController, async: true
 
   describe "with logged user" do
